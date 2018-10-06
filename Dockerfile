@@ -1,4 +1,4 @@
-FROM resin/raspberrypi3-python
+FROM duckietown/rpi-duckiebot-raspberrypi3-python:master18
 
 COPY loader.py /project/loader.py
 
